@@ -12,6 +12,7 @@ local string_UI_grab_category = getText('UI_grab_category')
 local string_UI_drop_category = getText('UI_drop_category')
 local string_UI_grab_category_tooltip = getText('UI_grab_category_tooltip')
 local string_UI_drop_category_tooltip = getText('UI_drop_category_tooltip')
+local string_UI_drop_floor = getText('UI_drop_floor')
 
 --- TOOLTIPS ---
 
@@ -269,14 +270,16 @@ local function addMoveItemsMenuOption(playerIndex, contextMenu, items)
     if (#items == 1 and EDNL_isEquipped(playerIndex, items)) then
         return -- equipped container selected
     end
-    local source, destination, grabbing = EDNL_getSourceAndDestinationInventories(items, playerIndex)
+    local source, destination, grabbing, floorContainer = EDNL_getSourceAndDestinationInventories(items, playerIndex)
     local string = string_UI_drop_category
     if (grabbing) then
         string = string_UI_grab_category
     end
-    -- add right click menu item
-    local option = contextMenu:addOption(string, nil, EDNLMoveItemsClick, items, playerIndex, source, destination)
-    createItemsTooltip(option, items, grabbing)
+    -- add right click menu items
+    local dropOrLootOption = contextMenu:addOption(string, nil, EDNLMoveItemsClick, items, playerIndex, source, destination)
+    local dropOnTheGroundOption = contextMenu:addOption(string_UI_drop_floor, nil, EDNLMoveItemsClick, items, playerIndex, source, floorContainer)
+    createItemsTooltip(dropOrLootOption, items, grabbing)
+    createItemsTooltip(dropOnTheGroundOption, items, grabbing)
 end
 
 -- Create "Grab (category)" and "Drop (category)" context menu items

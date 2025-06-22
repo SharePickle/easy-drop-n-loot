@@ -1,0 +1,17 @@
+UI_PL = {
+    UI_grab_category = "Zbierz wszystko (Kategoria)",
+    UI_grab_category_tooltip = "Zbierz przedmioty według kategorii:",
+    UI_drop_category = "Upuść wszystko (Kategoria)",
+    UI_drop_category_tooltip = "Upuść przedmioty według kategorii:",
+    UI_drop_items_button = "Przenieś kategorię",
+    UI_drop_items_button_tooltip = "Przenieś wszystkie przedmioty tej samej kategorii z ekwipunku do wybranego pojemnika.",
+    UI_loot_items_button = "Zbierz kategorię",
+    UI_loot_items_button_tooltip = "Zbierz wszystkie przedmioty tej samej kategorii z pojemnika do ekwipunku.",
+    UI_hide_drop_key = "Ukryj przycisk przenoszenia kategorii",
+    UI_hide_drop_key_tooltip = "Ukrywa przycisk przenoszenia kategorii w interfejsie ekwipunku. Wymagane ponowne uruchomienie mapy.",
+    UI_hide_loot_key = "Ukryj przycisk zbierania kategorii",
+    UI_hide_loot_key_tooltip = "Ukrywa przycisk zbierania kategorii w interfejsie ekwipunku. Wymagane ponowne uruchomienie mapy.",
+    UI_mod_button = "Przycisk modyfikatora",
+    UI_mod_button_tooltip = "Przytrzymaj ten przycisk razem z Upuść lub Zbierz, aby wykonać akcję.",
+    UI_drop_floor = "Upuść wszystko na ziemię (Kategoria)"
+};

@@ -1,0 +1,17 @@
+UI_NO = {
+    UI_grab_category = "Ta alt (Kategori)",
+    UI_grab_category_tooltip = "Ta gjenstander etter kategori:",
+    UI_drop_category = "Slipp alt (Kategori)",
+    UI_drop_category_tooltip = "Slipp gjenstander etter kategori:",
+    UI_drop_items_button = "Overfør kategori",
+    UI_drop_items_button_tooltip = "Overfør alle gjenstander av samme kategori fra inventaret ditt til den nåværende byttebeholderen.",
+    UI_loot_items_button = "Plyndre kategori",
+    UI_loot_items_button_tooltip = "Ta alle gjenstander av samme kategori fra den nåværende byttebeholderen til inventaret ditt.",
+    UI_hide_drop_key = "Skjul overføringsknapp for kategori",
+    UI_hide_drop_key_tooltip = "Skjuler overføringsknappen for kategori i inventar-UI. Krever omstart av kartet.",
+    UI_hide_loot_key = "Skjul plyndringsknapp for kategori",
+    UI_hide_loot_key_tooltip = "Skjuler plyndringsknappen for kategori i inventar-UI. Krever omstart av kartet.",
+    UI_mod_button = "Modifikatorknapp",
+    UI_mod_button_tooltip = "Hold denne knappen sammen med Slipp eller Plyndre for å utføre handlingen.",
+    UI_drop_floor = "Slipp alt på gulvet (Kategori)"
+};

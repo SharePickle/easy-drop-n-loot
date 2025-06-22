@@ -1,11 +1,19 @@
 [h1]BUILD 42 is now supported![/h1]
 
-Drop and Loot items of the same category into or out of your inventory.
+Drop and loot items of the same category effortlessly!
 
-Tired of sorting items into different containers? Use this mod to automatically put all items of the same category into open inventory, so you don't have to worry about it!
+Tired of sorting items manually? This mod automatically transfers all items of the same category into an open inventory, saving you time and effort.
 
-This is a compromise between manually moving items between inventories and having items to be automatically sorted into nearby containers.
-Players still need to select which inventory to use (e.g., equipped Duffel Bag) and which container to use (e.g., Crate).
+It strikes a balance between manual sorting and full automation. You still choose which inventory (e.g., Duffel Bag) and which container (e.g., Crate) to use.
+
+[h1]Latest update[/h1]
+June 22nd, 2025
+
+[list]
+[*] New option: key modifier. Hold this button along with Drop or Loot to initiate the action
+[*] New context menu option: drop all items of the same category on the floor
+[*] Added more translations
+[/list]
 
 [h1]Features[/h1]
 [list]
@@ -81,6 +89,17 @@ A: Yes
 [*] Brazilian Portuguese (Português Brasileiro) (by [url=https://steamcommunity.com/id/n0ciam]Nociam[/url])
 [*] Portuguese (Português)
 [*] Korean (한국어) (by [url=https://steamcommunity.com/profiles/76561198062695591]Hx[/url])
+[*] Polish (Polski)
+[*] Czech (Čeština)
+[*] French (Français)
+[*] German (Deutsch)
+[*] Danish (Dansk)
+[*] Hungarian (Magyar)
+[*] Norwegian (Norsk)
+[*] Turkish (Türkçe)
+[*] Japanese (日本語)
+[*] Finnish (Suomi)
+[*] Thai (ไทย)
 [/list]
 
 [h1]For mod developers[/h1]
@@ -88,7 +107,6 @@ A: Yes
 [*] ISInventoryPage.EDNLLootItems - "Loot Category" inventory button
 [*] ISInventoryPage.EDNLDropItems - "Drop Category" inventory button
 [/list]
-
 
 [hr][/hr]
 

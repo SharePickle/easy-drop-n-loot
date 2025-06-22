@@ -1,0 +1,17 @@
+UI_CZ = {
+    UI_grab_category = "Sebrat vše (Kategorie)",
+    UI_grab_category_tooltip = "Sebrat předměty podle kategorie:",
+    UI_drop_category = "Položit vše (Kategorie)",
+    UI_drop_category_tooltip = "Položit předměty podle kategorie:",
+    UI_drop_items_button = "Přesunout kategorii",
+    UI_drop_items_button_tooltip = "Přesunout všechny předměty stejné kategorie z inventáře do aktuálního kontejneru.",
+    UI_loot_items_button = "Sebrat kategorii",
+    UI_loot_items_button_tooltip = "Sebrat všechny předměty stejné kategorie z kontejneru do inventáře.",
+    UI_hide_drop_key = "Skrýt tlačítko přesunu kategorie",
+    UI_hide_drop_key_tooltip = "Skryje tlačítko přesunu kategorie v inventáři. Je vyžadován restart mapy.",
+    UI_hide_loot_key = "Skrýt tlačítko sběru kategorie",
+    UI_hide_loot_key_tooltip = "Skryje tlačítko sběru kategorie v inventáři. Je vyžadován restart mapy.",
+    UI_mod_button = "Modifikační tlačítko",
+    UI_mod_button_tooltip = "Podržte toto tlačítko spolu s Položit nebo Sebrat pro provedení akce.",
+    UI_drop_floor = "Položit vše na zem (Kategorie)"
+};

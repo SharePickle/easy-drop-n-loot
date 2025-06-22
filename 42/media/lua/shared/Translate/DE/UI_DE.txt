@@ -1,0 +1,17 @@
+UI_DE = {
+    UI_grab_category = "Alles nehmen (Kategorie)",
+    UI_grab_category_tooltip = "Gegenstände nach Kategorie nehmen:",
+    UI_drop_category = "Alles ablegen (Kategorie)",
+    UI_drop_category_tooltip = "Gegenstände nach Kategorie ablegen:",
+    UI_drop_items_button = "Kategorie übertragen",
+    UI_drop_items_button_tooltip = "Übertrage alle Gegenstände derselben Kategorie aus deinem Inventar in den aktuellen Beutecontainer.",
+    UI_loot_items_button = "Kategorie plündern",
+    UI_loot_items_button_tooltip = "Plündere alle Gegenstände derselben Kategorie aus dem aktuellen Beutecontainer in dein Inventar.",
+    UI_hide_drop_key = "Transfer-Kategorie-Schaltfläche ausblenden",
+    UI_hide_drop_key_tooltip = "Blendet die Transfer-Kategorie-Schaltfläche im Inventar-UI aus. Ein Neustart der Karte ist erforderlich.",
+    UI_hide_loot_key = "Plünder-Kategorie-Schaltfläche ausblenden",
+    UI_hide_loot_key_tooltip = "Blendet die Plünder-Kategorie-Schaltfläche im Inventar-UI aus. Ein Neustart der Karte ist erforderlich.",
+    UI_mod_button = "Modifikatortaste",
+    UI_mod_button_tooltip = "Halte diese Taste zusammen mit Ablegen oder Plündern, um die Aktion auszuführen.",
+    UI_drop_floor = "Alles auf den Boden legen (Kategorie)"
+};

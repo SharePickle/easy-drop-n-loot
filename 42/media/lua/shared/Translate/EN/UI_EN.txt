@@ -1,14 +1,17 @@
 UI_EN = {
-    UI_grab_category = "Grab all (category)",
-    UI_grab_category_tooltip = "Grab categories:",
-    UI_drop_category = "Drop all (category)",
-    UI_drop_category_tooltip = "Drop categories:",
+    UI_grab_category = "Grab all (Category)",
+    UI_grab_category_tooltip = "Grab items by category:",
+    UI_drop_category = "Drop all (Category)",
+    UI_drop_category_tooltip = "Drop items by category:",
     UI_drop_items_button = "Transfer Category",
-    UI_drop_items_button_tooltip = "Drop all items of the same category from your inventory as in the current loot container.",
+    UI_drop_items_button_tooltip = "Transfer all items of the same category from your inventory to the current loot container.",
     UI_loot_items_button = "Loot Category",
-    UI_loot_items_button_tooltip = "Loot all items of the same category from the current loot container as in your inventory.",
+    UI_loot_items_button_tooltip = "Loot all items of the same category from the current loot container to your inventory.",
     UI_hide_drop_key = "Hide Transfer Category",
-    UI_hide_drop_key_tooltip = "Hides Transfer Category button from the intentory UI. Map restart is required.",
+    UI_hide_drop_key_tooltip = "Hides the Transfer Category button from the inventory UI. A map restart is required.",
     UI_hide_loot_key = "Hide Loot Category",
-    UI_hide_loot_key_tooltip = "Hides Loot Category button from the intentory UI. Map restart is required."
+    UI_hide_loot_key_tooltip = "Hides the Loot Category button from the inventory UI. A map restart is required.",
+    UI_mod_button = "Modifier Button",
+    UI_mod_button_tooltip = "Hold this button along with Drop or Loot to initiate the action.",
+    UI_drop_floor = "Drop all on the floor (Category)"
 };

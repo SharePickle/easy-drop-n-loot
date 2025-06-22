@@ -1,10 +1,17 @@
 UI_CH = {
     UI_grab_category = "撿起全部 (按種類)",
-    UI_grab_category_tooltip = "Grab categories:",
-    UI_drop_category = "丢棄全部 (按種類)",
-    UI_drop_category_tooltip = "Drop categories:"    
-    UI_drop_items_button = "轉換種類",    
+    UI_grab_category_tooltip = "按種類撿起物品：",
+    UI_drop_category = "丟棄全部 (按種類)",
+    UI_drop_category_tooltip = "按種類丟棄物品：",
+    UI_drop_items_button = "轉換種類",
     UI_drop_items_button_tooltip = "放入所有與容器中相同種類的物品",
     UI_loot_items_button = "搜括種類",
-    UI_loot_items_button_tooltip = "搜括所有與目前物品庫中相同種類的物品"
+    UI_loot_items_button_tooltip = "搜括所有與目前物品庫中相同種類的物品",
+    UI_hide_drop_key = "隱藏轉移類別",
+    UI_hide_drop_key_tooltip = "從物品欄 UI 隱藏轉移類別按鈕。需要重新啟動地圖。",
+    UI_hide_loot_key = "隱藏戰利品類別",
+    UI_hide_loot_key_tooltip = "從物品欄 UI 隱藏戰利品類別按鈕。需要重新啟動地圖。",
+    UI_mod_button = "修飾符按鈕",
+    UI_mod_button_tooltip = "按住此按鈕與丟棄或搜括一起以啟動該操作。",
+    UI_drop_floor = "全部丟在地上（按種類）"
 };

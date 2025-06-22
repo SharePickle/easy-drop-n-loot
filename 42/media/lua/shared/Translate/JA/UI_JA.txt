@@ -1,0 +1,17 @@
+UI_JA = {
+    UI_grab_category = "すべて取る（カテゴリ）",
+    UI_grab_category_tooltip = "カテゴリでアイテムを取る：",
+    UI_drop_category = "すべて置く（カテゴリ）",
+    UI_drop_category_tooltip = "カテゴリでアイテムを置く：",
+    UI_drop_items_button = "カテゴリを移動",
+    UI_drop_items_button_tooltip = "同じカテゴリのすべてのアイテムをインベントリから現在の戦利品コンテナに移動します。",
+    UI_loot_items_button = "カテゴリを略奪",
+    UI_loot_items_button_tooltip = "現在の戦利品コンテナから同じカテゴリのすべてのアイテムをインベントリに略奪します。",
+    UI_hide_drop_key = "カテゴリ移動ボタンを非表示",
+    UI_hide_drop_key_tooltip = "インベントリUIからカテゴリ移動ボタンを非表示にします。マップの再起動が必要です。",
+    UI_hide_loot_key = "カテゴリ略奪ボタンを非表示",
+    UI_hide_loot_key_tooltip = "インベントリUIからカテゴリ略奪ボタンを非表示にします。マップの再起動が必要です。",
+    UI_mod_button = "修飾ボタン",
+    UI_mod_button_tooltip = "このボタンを押しながら置くまたは略奪を押して操作を実行します。",
+    UI_drop_floor = "すべて床に置く（カテゴリ）"
+};

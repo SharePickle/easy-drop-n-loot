@@ -1,0 +1,17 @@
+UI_FR = {
+    UI_grab_category = "Tout prendre (Catégorie)",
+    UI_grab_category_tooltip = "Prendre les objets par catégorie :",
+    UI_drop_category = "Tout déposer (Catégorie)",
+    UI_drop_category_tooltip = "Déposer les objets par catégorie :",
+    UI_drop_items_button = "Transférer la catégorie",
+    UI_drop_items_button_tooltip = "Transférer tous les objets de la même catégorie de votre inventaire vers le conteneur de butin actuel.",
+    UI_loot_items_button = "Piller la catégorie",
+    UI_loot_items_button_tooltip = "Piller tous les objets de la même catégorie du conteneur de butin actuel vers votre inventaire.",
+    UI_hide_drop_key = "Masquer le bouton de transfert de catégorie",
+    UI_hide_drop_key_tooltip = "Masque le bouton de transfert de catégorie dans l'interface d'inventaire. Un redémarrage de la carte est requis.",
+    UI_hide_loot_key = "Masquer le bouton de pillage de catégorie",
+    UI_hide_loot_key_tooltip = "Masque le bouton de pillage de catégorie dans l'interface d'inventaire. Un redémarrage de la carte est requis.",
+    UI_mod_button = "Bouton modificateur",
+    UI_mod_button_tooltip = "Maintenez ce bouton avec Déposer ou Piller pour effectuer l'action.",
+    UI_drop_floor = "Tout déposer au sol (Catégorie)"
+};

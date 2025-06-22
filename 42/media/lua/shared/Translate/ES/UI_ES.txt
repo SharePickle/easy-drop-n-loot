@@ -6,5 +6,12 @@ UI_ES = {
     UI_drop_items_button = "Transferir Categoria",
     UI_drop_items_button_tooltip = "Suelta todo el saqueo de la misma categoria en el almacenamiento.",
     UI_loot_items_button = "Saquear Categoria",
-    UI_loot_items_button_tooltip = "Saquea todo el contenido de la misma categoria en tu inventario."
+    UI_loot_items_button_tooltip = "Saquea todo el contenido de la misma categoria en tu inventario.",
+    UI_hide_drop_key = "Ocultar Transferir Categoria",
+    UI_hide_drop_key_tooltip = "Oculta el botón de Transferir Categoria de la interfaz de inventario. Se requiere reiniciar el mapa.",
+    UI_hide_loot_key = "Ocultar Saquear Categoria",
+    UI_hide_loot_key_tooltip = "Oculta el botón de Saquear Categoria de la interfaz de inventario. Se requiere reiniciar el mapa.",
+    UI_mod_button = "Botón Modificador",
+    UI_mod_button_tooltip = "Mantén presionado este botón junto con Soltar o Saquear para iniciar la acción.",
+    UI_drop_floor = "Soltar todo en el suelo (categoría)"
 };

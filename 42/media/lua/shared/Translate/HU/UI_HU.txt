@@ -1,0 +1,17 @@
+UI_HU = {
+    UI_grab_category = "Mindet mindent (Kategória)",
+    UI_grab_category_tooltip = "Tárgyak kategória szerint:",
+    UI_drop_category = "Elenged mindent (Kategória)",
+    UI_drop_category_tooltip = "Tárgyak elengedése kategória szerint:",
+    UI_drop_items_button = "Kategória áthelyezése",
+    UI_drop_items_button_tooltip = "Az összes azonos kategóriájú tárgy áthelyezése a készletedből az aktuális zsákmánytartóba.",
+    UI_loot_items_button = "Kategória zsákmányolása",
+    UI_loot_items_button_tooltip = "Az összes azonos kategóriájú tárgy zsákmányolása az aktuális zsákmánytartóból a készletedbe.",
+    UI_hide_drop_key = "Kategória áthelyezés gomb elrejtése",
+    UI_hide_drop_key_tooltip = "Elrejti a kategória áthelyezés gombot a készlet UI-ban. Térkép újraindítása szükséges.",
+    UI_hide_loot_key = "Kategória zsákmányolás gomb elrejtése",
+    UI_hide_loot_key_tooltip = "Elrejti a kategória zsákmányolás gombot a készlet UI-ban. Térkép újraindítása szükséges.",
+    UI_mod_button = "Módosító gomb",
+    UI_mod_button_tooltip = "Tartsd lenyomva ezt a gombot az Elenged vagy Zsákmányolás mellett a művelet végrehajtásához.",
+    UI_drop_floor = "Mindet a földre tesz (Kategória)"
+};

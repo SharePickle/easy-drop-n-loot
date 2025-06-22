@@ -132,6 +132,7 @@ function EDNL_getSourceAndDestinationInventories(selectedItems, playerIndex)
     local source -- source container
     local grabbing = false -- grabbing items from loot inventory
     local destination -- destination container
+    local floorContainer = ISInventoryPage.GetFloorContainer(playerIndex)
     -- if source is player inventory then destination is loot inventory and vise-versa
     if (firstItem:getContainer():getCharacter()) then
         source = playerInventory
@@ -141,7 +142,7 @@ function EDNL_getSourceAndDestinationInventories(selectedItems, playerIndex)
         source = lootInventory
         destination = playerInventory
     end
-    return source, destination, grabbing
+    return source, destination, grabbing, floorContainer
 end
 
 -- Drop items form selected player inventory

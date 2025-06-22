@@ -1,0 +1,17 @@
+UI_TR = {
+    UI_grab_category = "Hepsini al (Kategori)",
+    UI_grab_category_tooltip = "Eşyaları kategoriye göre al:",
+    UI_drop_category = "Hepsini bırak (Kategori)",
+    UI_drop_category_tooltip = "Eşyaları kategoriye göre bırak:",
+    UI_drop_items_button = "Kategoriyi aktar",
+    UI_drop_items_button_tooltip = "Aynı kategorideki tüm eşyaları envanterinizden mevcut ganimet kutusuna aktarır.",
+    UI_loot_items_button = "Kategoriyi yağmala",
+    UI_loot_items_button_tooltip = "Mevcut ganimet kutusundaki aynı kategorideki tüm eşyaları envanterinize yağmalar.",
+    UI_hide_drop_key = "Kategori aktar düğmesini gizle",
+    UI_hide_drop_key_tooltip = "Kategori aktar düğmesini envanter arayüzünden gizler. Haritanın yeniden başlatılması gerekir.",
+    UI_hide_loot_key = "Kategori yağmala düğmesini gizle",
+    UI_hide_loot_key_tooltip = "Kategori yağmala düğmesini envanter arayüzünden gizler. Haritanın yeniden başlatılması gerekir.",
+    UI_mod_button = "Değiştirici Düğme",
+    UI_mod_button_tooltip = "Bu düğmeyi Bırak veya Yağmala ile birlikte tutarak işlemi başlatın.",
+    UI_drop_floor = "Hepsini yere bırak (Kategori)"
+};

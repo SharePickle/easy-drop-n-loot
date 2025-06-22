@@ -1,0 +1,17 @@
+UI_DA = {
+    UI_grab_category = "Tag alt (Kategori)",
+    UI_grab_category_tooltip = "Tag genstande efter kategori:",
+    UI_drop_category = "Læg alt (Kategori)",
+    UI_drop_category_tooltip = "Læg genstande efter kategori:",
+    UI_drop_items_button = "Overfør kategori",
+    UI_drop_items_button_tooltip = "Overfør alle genstande af samme kategori fra dit inventar til den aktuelle byttebeholder.",
+    UI_loot_items_button = "Rov kategori",
+    UI_loot_items_button_tooltip = "Tag alle genstande af samme kategori fra den aktuelle byttebeholder til dit inventar.",
+    UI_hide_drop_key = "Skjul overførselsknap for kategori",
+    UI_hide_drop_key_tooltip = "Skjuler overførselsknappen for kategori i inventar-UI'et. Kortet skal genstartes.",
+    UI_hide_loot_key = "Skjul rovknap for kategori",
+    UI_hide_loot_key_tooltip = "Skjuler rovknappen for kategori i inventar-UI'et. Kortet skal genstartes.",
+    UI_mod_button = "Modifikatorknap",
+    UI_mod_button_tooltip = "Hold denne knap sammen med Læg eller Rov for at udføre handlingen.",
+    UI_drop_floor = "Læg alt på gulvet (Kategori)"
+};

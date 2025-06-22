@@ -1,10 +1,17 @@
 UI_CN = {
     UI_grab_category = "捡起全部 (按种类)",
-    UI_grab_category_tooltip = "Grab categories:",
+    UI_grab_category_tooltip = "按种类捡起物品：",
     UI_drop_category = "丢弃全部 (按种类)",
-    UI_drop_category_tooltip = "Drop categories:"
-    UI_drop_items_button = "转换种类",
+    UI_drop_category_tooltip = "按种类丢弃物品：",
+    UI_drop_items_button = "转移种类",
     UI_drop_items_button_tooltip = "放入所有与容器中相同种类的物品",
     UI_loot_items_button = "搜括种类",
-    UI_loot_items_button_tooltip = "搜括所有与当前物品库中相同种类的物品",    
+    UI_loot_items_button_tooltip = "搜括所有与当前物品库中相同种类的物品",
+    UI_hide_drop_key = "隐藏转移种类",
+    UI_hide_drop_key_tooltip = "从物品栏界面隐藏转移种类按钮。需要重启地图。",
+    UI_hide_loot_key = "隐藏搜括种类",
+    UI_hide_loot_key_tooltip = "从物品栏界面隐藏搜括种类按钮。需要重启地图。",
+    UI_mod_button = "修饰按钮",
+    UI_mod_button_tooltip = "按住此按钮并同时按丢弃或搜括以执行该操作。",
+    UI_drop_floor = "全部丢在地上（按种类）"
 };

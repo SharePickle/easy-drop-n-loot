@@ -4,7 +4,14 @@ UI_PTBR = {
     UI_drop_category = "Transferir tudo (categoria)",
     UI_drop_category_tooltip = "Transferir categorias:",
     UI_drop_items_button = "Transferir Categoria",
-    UI_drop_items_button_tooltip = "Transfere todos os itens da mesma categoria do seu invent�rio no cont�iner de saque atual.",
+    UI_drop_items_button_tooltip = "Transfere todos os itens da mesma categoria do seu inventário no contêiner de saque atual.",
     UI_loot_items_button = "Pegar Categoria",
-    UI_loot_items_button_tooltip = "Pega todos os itens da mesma categoria do cont�iner de saque atual para o seu invent�rio."
+    UI_loot_items_button_tooltip = "Pega todos os itens da mesma categoria do contêiner de saque atual para o seu inventário.",
+    UI_hide_drop_key = "Ocultar Transferir Categoria",
+    UI_hide_drop_key_tooltip = "Oculta o botão Transferir Categoria da interface do usuário do inventário. É necessário reiniciar o mapa.",
+    UI_hide_loot_key = "Ocultar Pegar Categoria",
+    UI_hide_loot_key_tooltip = "Oculta o botão Pegar Categoria da interface do usuário do inventário. É necessário reiniciar o mapa.",
+    UI_mod_button = "Botão Modificador",
+    UI_mod_button_tooltip = "Mantenha este botão pressionado junto com Transferir ou Pegar para iniciar a ação.",
+    UI_drop_floor = "Largar tudo no chão (Categoria)"
 };

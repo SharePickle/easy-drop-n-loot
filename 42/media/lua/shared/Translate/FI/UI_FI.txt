@@ -1,0 +1,17 @@
+UI_FI = {
+    UI_grab_category = "Ota kaikki (Kategoria)",
+    UI_grab_category_tooltip = "Ota esineet kategorian mukaan:",
+    UI_drop_category = "Pudota kaikki (Kategoria)",
+    UI_drop_category_tooltip = "Pudota esineet kategorian mukaan:",
+    UI_drop_items_button = "Siirrä kategoria",
+    UI_drop_items_button_tooltip = "Siirtää kaikki saman kategorian esineet varastostasi nykyiseen saaliskonttiin.",
+    UI_loot_items_button = "Ryöstä kategoria",
+    UI_loot_items_button_tooltip = "Ryöstää kaikki saman kategorian esineet nykyisestä saaliskontista varastoosi.",
+    UI_hide_drop_key = "Piilota siirtopainike",
+    UI_hide_drop_key_tooltip = "Piilottaa siirtopainikkeen varaston käyttöliittymästä. Kartan uudelleenkäynnistys vaaditaan.",
+    UI_hide_loot_key = "Piilota ryöstöpainike",
+    UI_hide_loot_key_tooltip = "Piilottaa ryöstöpainikkeen varaston käyttöliittymästä. Kartan uudelleenkäynnistys vaaditaan.",
+    UI_mod_button = "Muokkauspainike",
+    UI_mod_button_tooltip = "Pidä tätä painiketta yhdessä Pudota tai Ryöstä kanssa suorittaaksesi toiminnon.",
+    UI_drop_floor = "Pudota kaikki lattialle (Kategoria)"
+};

@@ -6,5 +6,12 @@ UI_IT = {
     UI_drop_items_button = "Lasciare una categoria di bottino",
     UI_drop_items_button_tooltip = "Fa cadere dall'inventario tutti gli oggetti della stessa categoria presenti nel contenitore corrente.",
     UI_loot_items_button = "Prendi una categoria di bottino",
-    UI_loot_items_button_tooltip = "Prendi tutti gli oggetti della stessa categoria del proprio inventario dal contenitore corrente."
+    UI_loot_items_button_tooltip = "Prendi tutti gli oggetti della stessa categoria del proprio inventario dal contenitore corrente.",
+    UI_hide_drop_key = "Nascondi categoria trasferimento",
+    UI_hide_drop_key_tooltip = "Nasconde il pulsante Categoria di Trasferimento dall'interfaccia utente dell'inventario. È richiesto un riavvio della mappa.",
+    UI_hide_loot_key = "Nascondi categoria bottino",
+    UI_hide_loot_key_tooltip = "Nasconde il pulsante Categoria Bottino dall'interfaccia utente dell'inventario. È richiesto un riavvio della mappa.",
+    UI_mod_button = "Pulsante Modificatore",
+    UI_mod_button_tooltip = "Tieni premuto questo pulsante insieme a Lascia o Prendi per avviare l'azione.",
+    UI_drop_floor = "Lascia tutto sul pavimento (categoria)"
 };

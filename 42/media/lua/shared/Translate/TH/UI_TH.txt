@@ -1,0 +1,17 @@
+UI_TH = {
+    UI_grab_category = "หยิบทั้งหมด (หมวดหมู่)",
+    UI_grab_category_tooltip = "หยิบไอเท็มตามหมวดหมู่:",
+    UI_drop_category = "วางทั้งหมด (หมวดหมู่)",
+    UI_drop_category_tooltip = "วางไอเท็มตามหมวดหมู่:",
+    UI_drop_items_button = "ย้ายหมวดหมู่",
+    UI_drop_items_button_tooltip = "ย้ายไอเท็มทั้งหมดในหมวดเดียวกันจากคลังของคุณไปยังกล่องของขวัญปัจจุบัน.",
+    UI_loot_items_button = "ปล้นหมวดหมู่",
+    UI_loot_items_button_tooltip = "ปล้นไอเท็มทั้งหมดในหมวดเดียวกันจากกล่องของขวัญปัจจุบันไปยังคลังของคุณ.",
+    UI_hide_drop_key = "ซ่อนปุ่มย้ายหมวดหมู่",
+    UI_hide_drop_key_tooltip = "ซ่อนปุ่มย้ายหมวดหมู่จาก UI คลังไอเท็ม ต้องรีสตาร์ทแผนที่.",
+    UI_hide_loot_key = "ซ่อนปุ่มปล้นหมวดหมู่",
+    UI_hide_loot_key_tooltip = "ซ่อนปุ่มปล้นหมวดหมู่จาก UI คลังไอเท็ม ต้องรีสตาร์ทแผนที่.",
+    UI_mod_button = "ปุ่มตัวปรับแต่ง",
+    UI_mod_button_tooltip = "กดปุ่มนี้พร้อมกับ วาง หรือ ปล้น เพื่อดำเนินการ.",
+    UI_drop_floor = "วางทั้งหมดบนพื้น (หมวดหมู่)"
+};

@@ -13,5 +13,10 @@ UI_DE = {
     UI_hide_loot_key_tooltip = "Blendet die Plünder-Kategorie-Schaltfläche im Inventar-UI aus. Ein Neustart der Karte ist erforderlich.",
     UI_mod_button = "Modifikatortaste",
     UI_mod_button_tooltip = "Halte diese Taste zusammen mit Ablegen oder Plündern, um die Aktion auszuführen.",
-    UI_drop_floor = "Alles auf den Boden legen (Kategorie)"
+    UI_drop_floor = "Alles auf den Boden legen (Kategorie)",
+    UI_drop_offset = "Transfer-Kategorie Versatz",
+    UI_drop_offset_tooltip = "Transfer-Kategorie Schaltflächen-Versatz relativ zur Alles übertragen Schaltfläche.",
+    UI_loot_offset = "Plünder-Kategorie Versatz",
+    UI_loot_offset_tooltip = "Plünder-Kategorie Schaltflächen-Versatz relativ zur Alles nehmen Schaltfläche.",
+    UI_mod_integrity_check_failed = "Mod-Integritätsprüfung fehlgeschlagen. Einige Funktionen funktionieren möglicherweise nicht korrekt. Überprüfen Sie die installierten Mods."
 };

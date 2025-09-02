@@ -13,5 +13,10 @@ UI_TR = {
     UI_hide_loot_key_tooltip = "Kategori yağmala düğmesini envanter arayüzünden gizler. Haritanın yeniden başlatılması gerekir.",
     UI_mod_button = "Değiştirici Düğme",
     UI_mod_button_tooltip = "Bu düğmeyi Bırak veya Yağmala ile birlikte tutarak işlemi başlatın.",
-    UI_drop_floor = "Hepsini yere bırak (Kategori)"
+    UI_drop_floor = "Hepsini yere bırak (Kategori)",
+    UI_drop_offset = "Kategori aktar kaydırma",
+    UI_drop_offset_tooltip = "Kategori aktar düğmesinin Hepsini aktar düğmesine göre kaydırması.",
+    UI_loot_offset = "Kategori yağmala kaydırma",
+    UI_loot_offset_tooltip = "Kategori yağmala düğmesinin Hepsini al düğmesine göre kaydırması.",
+    UI_mod_integrity_check_failed = "Mod bütünlük kontrolü başarısız oldu. Bazı özellikler düzgün çalışmayabilir. Yüklü modları kontrol edin."
 };

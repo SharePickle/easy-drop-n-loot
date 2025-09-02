@@ -13,5 +13,10 @@ UI_CH = {
     UI_hide_loot_key_tooltip = "從物品欄 UI 隱藏戰利品類別按鈕。需要重新啟動地圖。",
     UI_mod_button = "修飾符按鈕",
     UI_mod_button_tooltip = "按住此按鈕與丟棄或搜括一起以啟動該操作。",
-    UI_drop_floor = "全部丟在地上（按種類）"
+    UI_drop_floor = "全部丟在地上（按種類）",
+    UI_drop_offset = "轉移類別偏移",
+    UI_drop_offset_tooltip = "轉移類別按鈕相對於轉移全部按鈕的偏移。",
+    UI_loot_offset = "搜括類別偏移",
+    UI_loot_offset_tooltip = "搜括類別按鈕相對於拿取全部按鈕的偏移。",
+    UI_mod_integrity_check_failed = "模組完整性檢查失敗。某些功能可能無法正常運作。請檢查已安裝的模組。"
 };

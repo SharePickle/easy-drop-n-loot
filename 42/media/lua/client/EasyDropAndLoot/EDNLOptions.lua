@@ -1,13 +1,18 @@
 -- --- Easy Drop'n'Loot Options ---
 
 require "EDNLMain"
+require "EDNLCheck"
+
+EDNL_check(29252)
 
 local config = {
     lootKey = nil,
     dropKey = nil,
     hideLootKey = nil,
     hideDropKey = nil,
-    modKey = nil
+    modKey = nil,
+    dropOffset = nil,
+    lootOffset = nil
 }
 
 local function createEDNLConfigOptions()
@@ -18,6 +23,8 @@ local function createEDNLConfigOptions()
     config.lootKey = options:addKeyBind("EDNLOptionsLootKey", getText("UI_loot_items_button"), Keyboard.KEY_NONE, getText("UI_loot_items_button_tooltip"))
     config.hideDropKey = options:addTickBox("EDNLOptionsHideDropKey", getText("UI_hide_drop_key"), false, getText("UI_hide_drop_key_tooltip"))
     config.hideLootKey = options:addTickBox("EDNLOptionsHideLootKey", getText("UI_hide_loot_key"), false, getText("UI_hide_loot_key_tooltip"))
+    config.dropOffset = options:addSlider("EDNLOptionsDropOffset", getText("UI_drop_offset"), -1000, 1000, 1, 0, getText("UI_drop_offset_tooltip"))
+    config.lootOffset = options:addSlider("EDNLOptionsLootOffset", getText("UI_loot_offset"), -1000, 1000, 1, 0, getText("UI_loot_offset_tooltip"))
 end
 
 createEDNLConfigOptions()

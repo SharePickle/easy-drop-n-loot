@@ -1,6 +1,6 @@
 # Easy Drop'n'Loot
 
-> Version 22.06.2025
+> Version 02.09.2025
 
 ## Description
 

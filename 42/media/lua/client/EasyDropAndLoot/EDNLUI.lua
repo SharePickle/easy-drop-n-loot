@@ -3,6 +3,9 @@
 require "ISUI/ISButton"
 require "EDNLMain"
 require "EDNLOptions"
+require "EDNLCheck"
+
+EDNL_check(29253)
 
 local string_UI_drop_items_button = getText("UI_drop_items_button")
 local string_UI_drop_items_button_tooltip = getText("UI_drop_items_button_tooltip")
@@ -105,15 +108,19 @@ end
 -- Get "Transfer Category" button offset to prevent overlapping with other UI elements
 local function getDropItemsButtonOffset(self)
     local result = 0
+    local offset = PZAPI.ModOptions:getOptions("EDNLOptions"):getOption("EDNLOptionsDropOffset"):getValue()
     -- "Transfer all" button
     if (self.transferAll:getIsVisible()) then --
         result = self.transferAll:getX() - 3 - self.EDNLDropItems.width
     end
-    -- AutoLoot mod button
-    if (self.swapAutoLoot ~= nil and self.swapAutoLoot:getIsVisible()) then
-        result = self.swapAutoLoot:getX() - 3 - self.EDNLDropItems.width
+    -- if offset is not specified let's check for other buttons too
+    if (offset == 0) then
+        -- AutoLoot mod button
+        if (self.swapAutoLoot ~= nil and self.swapAutoLoot:getIsVisible()) then
+            result = self.swapAutoLoot:getX() - 3 - self.EDNLDropItems.width
+        end
     end
-    return result
+    return result + offset
 end
 
 -- Update "Transfer Category" button
@@ -167,20 +174,24 @@ end
 -- Get "Loot Category" button offset to prevent overlapping with other UI elements
 local function getLootItemsButtonOffset(self)
     local result = 0
+    local offset = PZAPI.ModOptions:getOptions("EDNLOptions"):getOption("EDNLOptionsLootOffset"):getValue()
     -- "Loot All" button
     if (self.lootAll:getIsVisible()) then
         result = self.lootAll:getRight() + 3
     end
-    -- AutoLoot mod button
-    if (self.stackItemsButtonIcon ~= nil and self.stackItemsButtonIcon:getIsVisible()) then
-        result = self.stackItemsButtonIcon:getRight() + 3
+    -- if offset is not specified let's check for other buttons too
+    if (offset == 0) then
+        -- AutoLoot mod button
+        if (self.stackItemsButtonIcon ~= nil and self.stackItemsButtonIcon:getIsVisible()) then
+            result = self.stackItemsButtonIcon:getRight() + 3
+        end
+        -- Smart Stack mod button
+        local smartStackButton = findSmartStackToAllButton(self)
+        if (smartStackButton ~= nil) then
+            result = smartStackButton:getRight() + 3
+        end
     end
-    -- Smart Stack mod button
-    local smartStackButton = findSmartStackToAllButton(self)
-    if (smartStackButton ~= nil) then
-        result = smartStackButton:getRight() + 3
-    end
-    return result
+    return result + offset
 end
 
 -- Update "Loot Category" button

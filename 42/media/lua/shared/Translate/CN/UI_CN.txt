@@ -13,5 +13,10 @@ UI_CN = {
     UI_hide_loot_key_tooltip = "从物品栏界面隐藏搜括种类按钮。需要重启地图。",
     UI_mod_button = "修饰按钮",
     UI_mod_button_tooltip = "按住此按钮并同时按丢弃或搜括以执行该操作。",
-    UI_drop_floor = "全部丢在地上（按种类）"
+    UI_drop_floor = "全部丢在地上（按种类）",
+    UI_drop_offset = "转移种类偏移",
+    UI_drop_offset_tooltip = "转移种类按钮相对于转移全部按钮的偏移。",
+    UI_loot_offset = "搜括种类偏移",
+    UI_loot_offset_tooltip = "搜括种类按钮相对于拿取全部按钮的偏移。",
+    UI_mod_integrity_check_failed = "模组完整性检查失败。某些功能可能无法正常工作。请检查已安装的模组。"
 };

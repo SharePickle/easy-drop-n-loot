@@ -13,5 +13,10 @@ UI_CZ = {
     UI_hide_loot_key_tooltip = "Skryje tlačítko sběru kategorie v inventáři. Je vyžadován restart mapy.",
     UI_mod_button = "Modifikační tlačítko",
     UI_mod_button_tooltip = "Podržte toto tlačítko spolu s Položit nebo Sebrat pro provedení akce.",
-    UI_drop_floor = "Položit vše na zem (Kategorie)"
+    UI_drop_floor = "Položit vše na zem (Kategorie)",
+    UI_drop_offset = "Posun přesunu kategorie",
+    UI_drop_offset_tooltip = "Posun tlačítka přesunu kategorie vzhledem k tlačítku přesunout vše.",
+    UI_loot_offset = "Posun sběru kategorie",
+    UI_loot_offset_tooltip = "Posun tlačítka sběru kategorie vzhledem k tlačítku vzít vše.",
+    UI_mod_integrity_check_failed = "Kontrola integrity módu selhala. Některé funkce nemusí fungovat správně. Zkontrolujte nainstalované módy."
 };

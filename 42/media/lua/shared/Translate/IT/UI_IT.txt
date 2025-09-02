@@ -13,5 +13,10 @@ UI_IT = {
     UI_hide_loot_key_tooltip = "Nasconde il pulsante Categoria Bottino dall'interfaccia utente dell'inventario. È richiesto un riavvio della mappa.",
     UI_mod_button = "Pulsante Modificatore",
     UI_mod_button_tooltip = "Tieni premuto questo pulsante insieme a Lascia o Prendi per avviare l'azione.",
-    UI_drop_floor = "Lascia tutto sul pavimento (categoria)"
+    UI_drop_floor = "Lascia tutto sul pavimento (categoria)",
+    UI_drop_offset = "Offset categoria trasferimento",
+    UI_drop_offset_tooltip = "Offset del pulsante Categoria Trasferimento relativo al pulsante Trasferisci Tutto.",
+    UI_loot_offset = "Offset categoria bottino",
+    UI_loot_offset_tooltip = "Offset del pulsante Categoria Bottino relativo al pulsante Prendi Tutto.",
+    UI_mod_integrity_check_failed = "Controllo integrità mod fallito. Alcune funzionalità potrebbero non funzionare correttamente. Controlla i mod installati."
 };

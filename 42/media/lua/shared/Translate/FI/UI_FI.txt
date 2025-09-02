@@ -13,5 +13,10 @@ UI_FI = {
     UI_hide_loot_key_tooltip = "Piilottaa ryöstöpainikkeen varaston käyttöliittymästä. Kartan uudelleenkäynnistys vaaditaan.",
     UI_mod_button = "Muokkauspainike",
     UI_mod_button_tooltip = "Pidä tätä painiketta yhdessä Pudota tai Ryöstä kanssa suorittaaksesi toiminnon.",
-    UI_drop_floor = "Pudota kaikki lattialle (Kategoria)"
+    UI_drop_floor = "Pudota kaikki lattialle (Kategoria)",
+    UI_drop_offset = "Siirtokategorian siirtymä",
+    UI_drop_offset_tooltip = "Siirtokategorian painikkeen siirtymä suhteessa Siirrä kaikki -painikkeeseen.",
+    UI_loot_offset = "Ryöstökategorian siirtymä",
+    UI_loot_offset_tooltip = "Ryöstökategorian painikkeen siirtymä suhteessa Ota kaikki -painikkeeseen.",
+    UI_mod_integrity_check_failed = "Modin eheyden tarkistus epäonnistui. Jotkin ominaisuudet eivät ehkä toimi oikein. Tarkista asennetut modit."
 };

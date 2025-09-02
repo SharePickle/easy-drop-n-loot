@@ -1,5 +1,9 @@
 UI_JA = {
-    UI_grab_category = "すべて取る（カテゴリ）",
+    UI    UI_drop_offset_tooltip = "すべて移動ボタンに対するカテゴリ移動ボタンのオフセット。",
+    UI_loot_offset = "カテゴリ略奪オフセット",
+    UI_loot_offset_tooltip = "すべて取るボタンに対するカテゴリ略奪ボタンのオフセット。",
+    UI_mod_integrity_check_failed = "Modの整合性チェックが失敗しました。一部の機能が正しく動作しない可能性があります。インストールされたModを確認してください。"
+};b_category = "すべて取る（カテゴリ）",
     UI_grab_category_tooltip = "カテゴリでアイテムを取る：",
     UI_drop_category = "すべて置く（カテゴリ）",
     UI_drop_category_tooltip = "カテゴリでアイテムを置く：",
@@ -13,5 +17,9 @@ UI_JA = {
     UI_hide_loot_key_tooltip = "インベントリUIからカテゴリ略奪ボタンを非表示にします。マップの再起動が必要です。",
     UI_mod_button = "修飾ボタン",
     UI_mod_button_tooltip = "このボタンを押しながら置くまたは略奪を押して操作を実行します。",
-    UI_drop_floor = "すべて床に置く（カテゴリ）"
+    UI_drop_floor = "すべて床に置く（カテゴリ）",
+    UI_drop_offset = "カテゴリ移動オフセット",
+    UI_drop_offset_tooltip = "すべて移動ボタンに対するカテゴリ移動ボタンのオフセット。",
+    UI_loot_offset = "カテゴリ略奪オフセット",
+    UI_loot_offset_tooltip = "すべて取るボタンに対するカテゴリ略奪ボタンのオフセット。"
 };

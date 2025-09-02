@@ -13,5 +13,10 @@ UI_FR = {
     UI_hide_loot_key_tooltip = "Masque le bouton de pillage de catégorie dans l'interface d'inventaire. Un redémarrage de la carte est requis.",
     UI_mod_button = "Bouton modificateur",
     UI_mod_button_tooltip = "Maintenez ce bouton avec Déposer ou Piller pour effectuer l'action.",
-    UI_drop_floor = "Tout déposer au sol (Catégorie)"
+    UI_drop_floor = "Tout déposer au sol (Catégorie)",
+    UI_drop_offset = "Décalage de transfert de catégorie",
+    UI_drop_offset_tooltip = "Décalage du bouton Transférer la catégorie par rapport au bouton Tout transférer.",
+    UI_loot_offset = "Décalage de pillage de catégorie",
+    UI_loot_offset_tooltip = "Décalage du bouton Piller la catégorie par rapport au bouton Tout prendre.",
+    UI_mod_integrity_check_failed = "La vérification de l'intégrité du mod a échoué. Certaines fonctionnalités peuvent ne pas fonctionner correctement. Vérifiez les mods installés."
 };

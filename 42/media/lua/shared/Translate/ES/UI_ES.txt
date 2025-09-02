@@ -13,5 +13,10 @@ UI_ES = {
     UI_hide_loot_key_tooltip = "Oculta el botón de Saquear Categoria de la interfaz de inventario. Se requiere reiniciar el mapa.",
     UI_mod_button = "Botón Modificador",
     UI_mod_button_tooltip = "Mantén presionado este botón junto con Soltar o Saquear para iniciar la acción.",
-    UI_drop_floor = "Soltar todo en el suelo (categoría)"
+    UI_drop_floor = "Soltar todo en el suelo (categoría)",
+    UI_drop_offset = "Desplazamiento de Transferir Categoría",
+    UI_drop_offset_tooltip = "Desplazamiento del botón Transferir Categoría relativo al botón Transferir Todo.",
+    UI_loot_offset = "Desplazamiento de Saquear Categoría",
+    UI_loot_offset_tooltip = "Desplazamiento del botón Saquear Categoría relativo al botón Tomar Todo.",
+    UI_mod_integrity_check_failed = "Falló la verificación de integridad del mod. Algunas características pueden no funcionar correctamente. Verifique los mods instalados."
 };

@@ -2,6 +2,9 @@
 
 require "TimedActions/ISTimedActionQueue"
 require "TimedActions/ISInventoryTransferAction"
+require "EDNLCheck"
+
+EDNL_check(29251)
 
 -- Convert array into table
 local function arrayToTable(array)

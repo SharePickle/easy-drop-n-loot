@@ -7,7 +7,7 @@ Tired of sorting items manually? This mod automatically transfers all items of t
 It strikes a balance between manual sorting and full automation. You still choose which inventory (e.g., Duffel Bag) and which container (e.g., Crate) to use.
 
 [h1]Latest update[/h1]
-June 22nd, 2025
+September 2nd, 2025
 
 [list]
 [*] New option: key modifier. Hold this button along with Drop or Loot to initiate the action
@@ -24,6 +24,7 @@ June 22nd, 2025
 [*] Favorite and Equipped items are ignored
 [*] Now supports keybindings
 [*] Transfer Category and Loot Category buttons can be hidden from the UI
+[*] Transfer and Loot buttons support offset
 [/list]
 
 [h1]How to use[/h1]

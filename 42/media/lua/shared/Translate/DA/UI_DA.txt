@@ -13,5 +13,10 @@ UI_DA = {
     UI_hide_loot_key_tooltip = "Skjuler rovknappen for kategori i inventar-UI'et. Kortet skal genstartes.",
     UI_mod_button = "Modifikatorknap",
     UI_mod_button_tooltip = "Hold denne knap sammen med Læg eller Rov for at udføre handlingen.",
-    UI_drop_floor = "Læg alt på gulvet (Kategori)"
+    UI_drop_floor = "Læg alt på gulvet (Kategori)",
+    UI_drop_offset = "Overførselskategori forskydning",
+    UI_drop_offset_tooltip = "Overførselskategori knappens forskydning i forhold til Overfør alt knappen.",
+    UI_loot_offset = "Rovkategori forskydning",
+    UI_loot_offset_tooltip = "Rovkategori knappens forskydning i forhold til Tag alt knappen.",
+    UI_mod_integrity_check_failed = "Mod integritetstjek mislykkedes. Nogle funktioner fungerer muligvis ikke korrekt. Kontroller installerede mods."
 };

@@ -13,5 +13,10 @@ UI_HU = {
     UI_hide_loot_key_tooltip = "Elrejti a kategória zsákmányolás gombot a készlet UI-ban. Térkép újraindítása szükséges.",
     UI_mod_button = "Módosító gomb",
     UI_mod_button_tooltip = "Tartsd lenyomva ezt a gombot az Elenged vagy Zsákmányolás mellett a művelet végrehajtásához.",
-    UI_drop_floor = "Mindet a földre tesz (Kategória)"
+    UI_drop_floor = "Mindet a földre tesz (Kategória)",
+    UI_drop_offset = "Kategória áthelyezés eltolás",
+    UI_drop_offset_tooltip = "Kategória áthelyezés gomb eltolása a Mindet áthelyez gombhoz képest.",
+    UI_loot_offset = "Kategória zsákmányolás eltolás",
+    UI_loot_offset_tooltip = "Kategória zsákmányolás gomb eltolása a Mindet elvesz gombhoz képest.",
+    UI_mod_integrity_check_failed = "A mod integritás ellenőrzése sikertelen. Néhány funkció nem működhet megfelelően. Ellenőrizze a telepített modokat."
 };

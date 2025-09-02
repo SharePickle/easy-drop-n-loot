@@ -13,5 +13,10 @@ UI_NO = {
     UI_hide_loot_key_tooltip = "Skjuler plyndringsknappen for kategori i inventar-UI. Krever omstart av kartet.",
     UI_mod_button = "Modifikatorknapp",
     UI_mod_button_tooltip = "Hold denne knappen sammen med Slipp eller Plyndre for å utføre handlingen.",
-    UI_drop_floor = "Slipp alt på gulvet (Kategori)"
+    UI_drop_floor = "Slipp alt på gulvet (Kategori)",
+    UI_drop_offset = "Overføringskategori forskyvning",
+    UI_drop_offset_tooltip = "Overføringskategori knappens forskyvning i forhold til Overfør alt knappen.",
+    UI_loot_offset = "Plyndringskategori forskyvning",
+    UI_loot_offset_tooltip = "Plyndringskategori knappens forskyvning i forhold til Ta alt knappen.",
+    UI_mod_integrity_check_failed = "Integritetskontroll av mod mislyktes. Noen funksjoner fungerer kanskje ikke riktig. Sjekk installerte mods."
 };

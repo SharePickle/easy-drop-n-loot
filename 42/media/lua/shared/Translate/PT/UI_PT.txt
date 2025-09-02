@@ -13,5 +13,10 @@ UI_PT = {
     UI_hide_loot_key_tooltip = "Oculta o botão Apanhar Categoria da interface do utilizador do inventário. É necessário reiniciar o mapa.",
     UI_mod_button = "Botão Modificador",
     UI_mod_button_tooltip = "Mantém este botão pressionado juntamente com Transferir ou Apanhar para iniciar a ação.",
-    UI_drop_floor = "Largar tudo no chão (Categoria)"
+    UI_drop_floor = "Largar tudo no chão (Categoria)",
+    UI_drop_offset = "Deslocamento da Categoria de Transferência",
+    UI_drop_offset_tooltip = "Deslocamento do botão Transferir Categoria em relação ao botão Transferir Tudo.",
+    UI_loot_offset = "Deslocamento da Categoria de Apanhar",
+    UI_loot_offset_tooltip = "Deslocamento do botão Apanhar Categoria em relação ao botão Apanhar Tudo.",
+    UI_mod_integrity_check_failed = "Falha na verificação de integridade do mod. Algumas funcionalidades podem não funcionar corretamente. Verifique os mods instalados."
 };

@@ -13,5 +13,10 @@ UI_PL = {
     UI_hide_loot_key_tooltip = "Ukrywa przycisk zbierania kategorii w interfejsie ekwipunku. Wymagane ponowne uruchomienie mapy.",
     UI_mod_button = "Przycisk modyfikatora",
     UI_mod_button_tooltip = "Przytrzymaj ten przycisk razem z Upuść lub Zbierz, aby wykonać akcję.",
-    UI_drop_floor = "Upuść wszystko na ziemię (Kategoria)"
+    UI_drop_floor = "Upuść wszystko na ziemię (Kategoria)",
+    UI_drop_offset = "Przesunięcie kategorii przenoszenia",
+    UI_drop_offset_tooltip = "Przesunięcie przycisku Przenoszenie kategorii względem przycisku Przenieś wszystko.",
+    UI_loot_offset = "Przesunięcie kategorii zbierania",
+    UI_loot_offset_tooltip = "Przesunięcie przycisku Zbieranie kategorii względem przycisku Weź wszystko.",
+    UI_mod_integrity_check_failed = "Sprawdzenie integralności moda nie powiodło się. Niektóre funkcje mogą nie działać poprawnie. Sprawdź zainstalowane mody."
 };

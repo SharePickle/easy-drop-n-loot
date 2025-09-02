@@ -13,5 +13,10 @@ UI_PTBR = {
     UI_hide_loot_key_tooltip = "Oculta o botão Pegar Categoria da interface do usuário do inventário. É necessário reiniciar o mapa.",
     UI_mod_button = "Botão Modificador",
     UI_mod_button_tooltip = "Mantenha este botão pressionado junto com Transferir ou Pegar para iniciar a ação.",
-    UI_drop_floor = "Largar tudo no chão (Categoria)"
+    UI_drop_floor = "Largar tudo no chão (Categoria)",
+    UI_drop_offset = "Deslocamento da Categoria de Transferência",
+    UI_drop_offset_tooltip = "Deslocamento do botão Transferir Categoria em relação ao botão Transferir Tudo.",
+    UI_loot_offset = "Deslocamento da Categoria de Pegar",
+    UI_loot_offset_tooltip = "Deslocamento do botão Pegar Categoria em relação ao botão Pegar Tudo.",
+    UI_mod_integrity_check_failed = "Falha na verificação de integridade do mod. Algumas funcionalidades podem não funcionar corretamente. Verifique os mods instalados."
 };

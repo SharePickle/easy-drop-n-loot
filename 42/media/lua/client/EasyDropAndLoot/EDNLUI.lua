@@ -107,12 +107,8 @@ end
 
 -- Get "Transfer Category" button offset to prevent overlapping with other UI elements
 local function getDropItemsButtonOffset(self)
-    local result = 0
+    local result = self.width - self.EDNLDropItems.width - 60
     local offset = PZAPI.ModOptions:getOptions("EDNLOptions"):getOption("EDNLOptionsDropOffset"):getValue()
-    -- "Transfer all" button
-    if (self.transferAll:getIsVisible()) then --
-        result = self.transferAll:getX() - 3 - self.EDNLDropItems.width
-    end
     -- if offset is not specified let's check for other buttons too
     if (offset == 0) then
         -- AutoLoot mod button
@@ -128,7 +124,6 @@ local function updateDropItemsButton(self)
     if (self.onCharacter and self.EDNLDropItems ~= nil) then
         if (self.width >= 370) then
             -- show "Transfer Category" when "Transfer All" button shows
-            self.transferAll:setVisible(true)
             self.EDNLDropItems:setVisible(true)
             local offset = getDropItemsButtonOffset(self)
             self.EDNLDropItems:setX(offset)
@@ -173,12 +168,8 @@ end
 
 -- Get "Loot Category" button offset to prevent overlapping with other UI elements
 local function getLootItemsButtonOffset(self)
-    local result = 0
+    local result = 60
     local offset = PZAPI.ModOptions:getOptions("EDNLOptions"):getOption("EDNLOptionsLootOffset"):getValue()
-    -- "Loot All" button
-    if (self.lootAll:getIsVisible()) then
-        result = self.lootAll:getRight() + 3
-    end
     -- if offset is not specified let's check for other buttons too
     if (offset == 0) then
         -- AutoLoot mod button
@@ -220,19 +211,6 @@ local function updateLootItemsButton(self)
     end
 end
 
--- Update "Oven" and "Remove All" button
-local function updateOvenAndRemoveAllButton(self)
-    if (not self.onCharacter and self.EDNLLootItems ~= nil) then
-        local offset = self.EDNLLootItems:getRight() + 3
-        if (self.toggleStove:getIsVisible()) then
-            self.toggleStove:setX(offset)
-        end
-        if (self.removeAll:getIsVisible()) then
-            self.removeAll:setX(offset)
-        end
-    end
-end
-
 -- reference to original function
 local ISInventoryPagePrerender = ISInventoryPage.prerender
 
@@ -241,7 +219,6 @@ function ISInventoryPage:prerender()
     ISInventoryPagePrerender(self) -- call original function
     pcall(updateDropItemsButton, self) -- pcall to prevent UI from crashing if this mod causes problems
     pcall(updateLootItemsButton, self)
-    pcall(updateOvenAndRemoveAllButton, self)
     pcall(createInventoryButtons, self) -- in case other mods override ISInventoryPage.createChildren - lets try to create buttons
 end
 

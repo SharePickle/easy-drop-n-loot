@@ -1,0 +1,6 @@
+{
+    "UI    UI_drop_offset_tooltip": "すべて移動ボタンに対するカテゴリ移動ボタンのオフセット。",
+    "UI_loot_offset": "カテゴリ略奪オフセット",
+    "UI_loot_offset_tooltip": "すべて取るボタンに対するカテゴリ略奪ボタンのオフセット。",
+    "UI_mod_integrity_check_failed": "Modの整合性チェックが失敗しました。一部の機能が正しく動作しない可能性があります。インストールされたModを確認してください。"
+}

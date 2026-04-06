@@ -7,7 +7,7 @@ Tired of sorting items manually? This mod automatically transfers all items of t
 It strikes a balance between manual sorting and full automation. You still choose which inventory (e.g., Duffel Bag) and which container (e.g., Crate) to use.
 
 [h1]Latest update[/h1]
-September 26th, 2025
+April 6th, 2026 - new translations format
 
 [h2]Build 42.12.0[/h2]
 The developers adding their own version of "Easy Drop'n'Loot" mod into the game, check it out!

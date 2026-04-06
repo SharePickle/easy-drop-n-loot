@@ -3,9 +3,6 @@
 require "ISUI/ISButton"
 require "EDNLMain"
 require "EDNLOptions"
-require "EDNLCheck"
-
-EDNL_check(29253)
 
 local string_UI_drop_items_button = getText("UI_drop_items_button")
 local string_UI_drop_items_button_tooltip = getText("UI_drop_items_button_tooltip")

@@ -1,0 +1,22 @@
+{
+    "UI_grab_category": "모두 줍기 (카테고리)",
+    "UI_grab_category_tooltip": "카테고리 줍기:",
+    "UI_drop_category": "모두 버리기 (카테고리)",
+    "UI_drop_category_tooltip": "카테고리 버리기:",
+    "UI_drop_items_button": "카테고리 이동",
+    "UI_drop_items_button_tooltip": "현재 물품 컨테이너에서와 같은 카테고리의 모든 아이템을 인벤토리에서 버립니다.",
+    "UI_loot_items_button": "카테고리 획득",
+    "UI_loot_items_button_tooltip": "현재 물품 컨테이너에서와 같은 카테고리의 모든 아이템을 인벤토리에서 획득합니다.",
+    "UI_hide_drop_key": "전송 카테고리 숨기기",
+    "UI_hide_drop_key_tooltip": "인벤토리 UI에서 전송 카테고리 버튼을 숨깁니다. 맵 재시작이 필요합니다.",
+    "UI_hide_loot_key": "전리품 카테고리 숨기기",
+    "UI_hide_loot_key_tooltip": "인벤토리 UI에서 전리품 카테고리 버튼을 숨깁니다. 맵 재시작이 필요합니다.",
+    "UI_mod_button": "수정자 버튼",
+    "UI_mod_button_tooltip": "드롭 또는 루트와 함께 이 버튼을 눌러 작업을 시작합니다.",
+    "UI_drop_floor": "바닥에 모두 버리기 (카테고리)",
+    "UI_drop_offset": "카테고리 이동 오프셋",
+    "UI_drop_offset_tooltip": "모두 이동 버튼에 대한 카테고리 이동 버튼의 오프셋.",
+    "UI_loot_offset": "카테고리 획득 오프셋",
+    "UI_loot_offset_tooltip": "모두 가져가기 버튼에 대한 카테고리 획득 버튼의 오프셋.",
+    "UI_mod_integrity_check_failed": "모드 무결성 검사에 실패했습니다. 일부 기능이 올바르게 작동하지 않을 수 있습니다. 설치된 모드를 확인하십시오."
+}

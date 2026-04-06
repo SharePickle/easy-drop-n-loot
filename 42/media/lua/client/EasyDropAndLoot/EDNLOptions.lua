@@ -1,9 +1,6 @@
 -- --- Easy Drop'n'Loot Options ---
 
 require "EDNLMain"
-require "EDNLCheck"
-
-EDNL_check(29252)
 
 local config = {
     lootKey = nil,
